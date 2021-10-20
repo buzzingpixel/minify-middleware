@@ -10,8 +10,10 @@
     ],
     "require": {
         "php": "^8.0",
+        "mrclay/minify": "^3.0",
         "psr/http-factory": "^1.0",
-        "psr/http-server-middleware": "^1.0"
+        "psr/http-server-middleware": "^1.0",
+        "slim/psr7": "^1.5"
     },
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.31.0",
@@ -29,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BuzzingPixel\\StaticCache\\": "src"
+            "BuzzingPixel\\Minify\\": "src"
         }
     },
     "config": {

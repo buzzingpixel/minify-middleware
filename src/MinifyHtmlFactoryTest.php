@@ -55,10 +55,15 @@ class MinifyHtmlFactoryTest extends TestCase
             $this->getPrivate($minifier, '_isXhtml'),
         );
 
-        /**
-         * @phpstan-ignore-next-line
-         * @psalm-suppress UndefinedPropertyFetch
-         */
-        self::assertSame('testHtml', $minifier->_html);
+        $minifierReflection = new ReflectionClass($minifier);
+
+        $htmlProp = $minifierReflection->getProperty('_html');
+
+        $htmlProp->setAccessible(true);
+
+        self::assertSame(
+            'testHtml',
+            $htmlProp->getValue($minifier),
+        );
     }
 }

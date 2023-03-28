@@ -161,11 +161,13 @@ class MinifyMiddlewareTest extends TestCase
 
         self::assertSame(
             'handle',
+            /** @phpstan-ignore-next-line */
             $this->handlerCalls[0]['method'],
         );
 
         self::assertSame(
             $this->requestStub,
+            /** @phpstan-ignore-next-line */
             $this->handlerCalls[0]['request'],
         );
 
@@ -198,11 +200,13 @@ class MinifyMiddlewareTest extends TestCase
 
         self::assertSame(
             'handle',
+            /** @phpstan-ignore-next-line */
             $this->handlerCalls[0]['method'],
         );
 
         self::assertSame(
             $this->requestStub,
+            /** @phpstan-ignore-next-line */
             $this->handlerCalls[0]['request'],
         );
 
@@ -246,11 +250,13 @@ class MinifyMiddlewareTest extends TestCase
 
         self::assertSame(
             'handle',
+            /** @phpstan-ignore-next-line */
             $this->handlerCalls[0]['method'],
         );
 
         self::assertSame(
             $this->requestStub,
+            /** @phpstan-ignore-next-line */
             $this->handlerCalls[0]['request'],
         );
 
@@ -261,6 +267,7 @@ class MinifyMiddlewareTest extends TestCase
 
         self::assertSame(
             'make',
+            /** @phpstan-ignore-next-line */
             $this->streamFactoryCalls[0]['method'],
         );
 
@@ -271,11 +278,13 @@ class MinifyMiddlewareTest extends TestCase
 
         self::assertSame(
             'write',
+            /** @phpstan-ignore-next-line */
             $this->bodyCalls[0]['method'],
         );
 
         self::assertSame(
             'processedHtml',
+            /** @phpstan-ignore-next-line */
             $this->bodyCalls[0]['content'],
         );
 
@@ -286,14 +295,17 @@ class MinifyMiddlewareTest extends TestCase
 
         self::assertSame(
             'make',
+            /** @phpstan-ignore-next-line */
             $this->minifyHtmlFactoryCalls[0]['method'],
         );
 
         self::assertSame(
             'testIncomingBody',
+            /** @phpstan-ignore-next-line */
             $this->minifyHtmlFactoryCalls[0]['content'],
         );
 
+        /** @phpstan-ignore-next-line */
         self::assertNull($this->minifyHtmlFactoryCalls[0]['options']);
     }
 }

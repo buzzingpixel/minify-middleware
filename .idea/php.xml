@@ -120,7 +120,6 @@
       <path value="$PROJECT_DIR$/vendor/tubalmartin/cssmin" />
       <path value="$PROJECT_DIR$/vendor/mrclay/props-dic" />
       <path value="$PROJECT_DIR$/vendor/mrclay/jsmin-php" />
-      <path value="$PROJECT_DIR$/vendor/mrclay/minify" />
       <path value="$PROJECT_DIR$/vendor/marcusschwarz/lesserphp" />
       <path value="$PROJECT_DIR$/vendor/slim/psr7" />
       <path value="$PROJECT_DIR$/vendor/fig/http-message-util" />
@@ -130,6 +129,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
       <path value="$PROJECT_DIR$/vendor/spatie/array-to-xml" />
       <path value="$PROJECT_DIR$/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/vendor/buzzingpixel/minifier" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">

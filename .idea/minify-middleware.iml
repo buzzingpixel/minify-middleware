@@ -9,7 +9,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/tubalmartin/cssmin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mrclay/props-dic" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mrclay/jsmin-php" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/mrclay/minify" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/marcusschwarz/lesserphp" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/slim/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fig/http-message-util" />
@@ -19,6 +18,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php81" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/array-to-xml" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fidry/cpu-core-counter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/buzzingpixel/minifier" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
